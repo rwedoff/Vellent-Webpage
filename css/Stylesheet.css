@@ -1,0 +1,150 @@
+body{
+    margin: 2%
+}
+
+nav{
+    height: 7em;
+    margin-bottom: 2%;
+}
+#logo{
+height: 7em;
+}
+#search{
+    margin-top: 3em;
+    margin-left: 3em;
+    height: 4em;
+    
+}
+#clock-obj{
+    height: 7em;
+    float: right;
+}
+
+#clock{height: 5em; text-align: center;}
+#face { stroke-width: 7px; stroke: #89d2f4;  }
+#hour, #min, #sec { stroke-width: 1px; fill: #89d2f4;  }
+#sec { stroke: rgba(137, 210, 244, 0.55); }
+#currtime{color:#89d2f4;
+    font-size: 1em
+}
+section img{
+    width: 100%;
+    padding: 5% 5% 5% 5%;
+    margin: 5% 5% 5% 5%;
+}
+#fb, #twitter, #insta{
+    margin: auto;
+    width: 50%;
+    
+    
+}
+#home-logo{
+    width: 60%;
+    margin-top: 10%;
+    max-height: 20%;
+    
+}
+#home-blog{
+    width: 60%;
+    max-height: 20%;
+}
+#home-page{
+    text-align: center;
+    max-height: 80%;
+    margin: 0 auto;
+    width: 75em;
+        
+}
+.home-icon{
+    height: 9em;
+}
+#today-ribbon{
+    max-width: 100%;
+    max-height: 40em;
+   text-align: center;
+}
+footer img{
+    height: 7em;
+    
+}
+#about-text{
+ color: rgba(223,131,131,300)
+
+}
+#blog1-pic:hover{
+    width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	background: url("http://idealweightatx.com/wp-content/uploads/2014/06/cnn-logo.jpg") no-repeat center;
+    background-size: 100%;
+     -webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+    
+     display: inline-block;
+     margin: auto;
+     float:left;    
+}
+
+ #blog1-pic {
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	background: url('../img/logo%20V.png') no-repeat center;
+    background-size: 100%;
+     -webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+    
+     display: inline-block;
+     margin: auto;
+     float:left;
+	}
+
+#blogs{
+    display: inline-block;
+}
+.blog2-pic {
+	width: 300px;
+	height: 300px;
+	border-radius: 300px;
+	-moz-border-radius: 300px;
+    -webkit-border-radius: 300px;
+	background: url('../img/logo%20V.png') no-repeat center;
+    background-size: 100%;
+     display: inline-block;
+     margin: auto;
+     float:left;
+	}
+#blog3-pic {
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+    -webkit-border-radius: 150px;
+    
+	-moz-border-radius: 150px;
+	background: url('../img/logo%20V.png') no-repeat center;
+    background-size: 100%;
+     display: inline-block;
+     margin: auto;
+     float:left;
+	}
+
+.search-bar{
+    display: inline-block;
+    max-width: 21%;
+    
+    
+}
+#search-button{
+     background-color: #89d2f4;
+    border: none;
+    visibility: hidden;
+    
+}
+#search-bar-txt{
+    border:2px solid #ccc; 
+-webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-color:#333;
+    height:3em;
+    visibility: hidden;
+}

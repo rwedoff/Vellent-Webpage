@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vellent</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/simple-sidebar.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/Stylesheet.css" rel="stylesheet">
+    <a name="top"></a>
+</head>
+
+<body>
+    <div class="container-fluid">
+    <div class="row">
+        <nav>
+            <div class="col-sm-9">
+                <a href="index.html"><img src="img/vellent%20logo.png" id="logo"></a>
+                <img src="img/search.png" id="search">
+                <form class="search-bar">
+                    <input type="text" name="search" placeholder="search..." id="search-bar-txt">
+                    <input type="submit" value=">>>" id = "search-button" > 
+                </form>
+                        
+            </div>
+            
+            <div class="col-sm-3>">
+                
+                <div id="clock-obj">
+                <svg id="clock" viewBox="0 0 100 100">
+                    <circle id="face" cx="50" cy="50" r="45" fill="white"/>
+                    <g id="hands">
+                        <rect id="hour" x="48.5" y="12.5" width="5" height="40" rx="2.5" ry="2.55" />
+                        <rect id="min" x="48" y="12.5" width="3" height="40" rx="2" ry="2"/>
+                        <line id="sec" x1="50" y1="50" x2="50" y2="16" />
+                    </g>
+                    </svg>
+                    <br>
+                <time id="currtime"></time>
+                </div>
+            </div>
+                                 
+        </nav>
+        </div>
+    </div>
+    
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+                         <a href="#menu-toggle" id="menu-toggle">  <button type="button" class="btn btn-default" aria-label="true">
+  <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+</button></a>
+             <aside class="block">
+                <section id="today" ><a href="today.html"><img src="img/newest%20logo1.jpg"></a></section>
+                <br>
+                <section id="what"><a href="what.html"><img src="img/newest%20lgoobdfbsbcxzvc.jpg"></a></section>
+                <br>
+                <section id="who"><a href="who.html"><img src="img/newest%20lgoogrbf.jpg"></a></section>
+                <br>
+                <section id="about"><a href="about.html"><img src="img/newest%20lgoosfbsd.jpg"></a></section>
+                 <br>
+                 <section id="question"><img src="img/newest%20lgoo%20weeee.jpg"></section>
+                 <br>
+                <section id="fb"><img src="img/newest%20facebook.jpg"> </section>
+                <section id="twitter"><a href="https://twitter.com/vellentduo">                 <img src="img/newest%20twitter%20logo.jpg"></a></section>
+                
+    </aside>    
+
+        </div>
+        
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+           
+                       <img src="img/today%20with%20ribbon.jpg" id="today-ribbon">
+           
+                <article id="blogs">
+      
+                     <div class="blog2-pic"></div>
+                     <div class="blog2-pic"></div>
+                     <div class="blog2-pic"></div>
+                     <div class="blog2-pic"></div>
+                     <div class="blog2-pic"></div>
+                     <div class="blog2-pic"></div>
+                     <div class="blog2-pic"></div>
+                    <div class="blog2-pic"></div>
+                    <div class="blog2-pic"></div>
+                    <div class="blog2-pic"></div>
+                    <div class="blog2-pic"></div>
+                    <div class="blog2-pic"></div>
+                    <div class="blog2-pic"></div>
+                    
+                    
+            </article>
+                                    
+                        <footer class="footer">
+      <div class="container">
+        <center><a href='#top'><img src="img/logo%20V.png"></a></center>
+      </div>
+    </footer>
+                    </div>
+              
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+      <script src="js/time.js"></script>
+      <script src="js/dig-clock.js"></script>
+      <script src="js/uisearch.js"></script>
+    <script src="js/blog-effects.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
